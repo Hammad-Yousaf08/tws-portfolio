@@ -1,4 +1,4 @@
-# Use the official Python image as a parents
+# Use the official Python imgg
 FROM python:3.9-slim
 
 # Set the working directory inside the container
