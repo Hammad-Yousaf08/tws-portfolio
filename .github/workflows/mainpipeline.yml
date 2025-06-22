@@ -19,11 +19,11 @@ jobs:
 
       - name: Set working directory
         run: |
-          cd /home/octaloop/actions-runner/tws-portfolio  # Set the correct working directory
+          cd /home/octaloop/actions-runner/tws-portfolio-folder/tws-portfolio/tws-portfolio  # Set the correct working directory
 
       - name: Build Docker image
         run: |
-          cd /home/octaloop/actions-runner/tws-portfolio  # Ensure we are in the right directory
+          cd /home/octaloop/actions-runner/tws-portfolio-folder/tws-portfolio/tws-portfolio  # Ensure we are in the right directory
           docker build --no-cache -t tws-portfolio-image .
 
       - name: Check if the container is running, then stop and remove it
